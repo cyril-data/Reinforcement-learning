@@ -13,11 +13,18 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
+      description: Describe or **attach image** file of the happening bug.
       placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
       required: true
+  - type: textarea
+    id: ground-truth
+    attributes:
+      label: Describe the expected ground-truth ? 
+      description: Describe or **attach image** file of the ground-truth.
+      placeholder: Tell us what you see!
+      value: "The expected ground-truth : "
     validations:
       required: true
   - type: dropdown
