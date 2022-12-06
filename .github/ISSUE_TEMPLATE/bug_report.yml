@@ -33,6 +33,6 @@ body:
       label: What soft is concerned 
       multiple: true
       options:
-        - spm
-        - fsl
-        - afni
+        - SPM
+        - FSL
+        - AFNI
