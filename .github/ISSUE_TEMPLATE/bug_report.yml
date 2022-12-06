@@ -9,11 +9,13 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug parser report!+
-  - type: input
+        
+  - type: textarea
     id: batch-name
     attributes:
       label: batch name and line
       description: 
+      placeholder: Tell us where is the **spm/fsl/afni batch** fil, and the **lines** to check ?   
     validations:
       required: false
 
