@@ -8,7 +8,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug parser report!
+        Thanks for taking the time to fill out this bug parser report!+
+  - type: input
+    id: batch-name
+    attributes:
+      label: batch name and line
+      description: 
+    validations:
+      required: false
+
   - type: textarea
     id: what-happened
     attributes:
